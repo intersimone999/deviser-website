@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-  <link href="assets/img/logo.png" rel="apple-touch-icon">
+  <link href="assets/img/logo-square-small.png" rel="icon">
+  <link href="assets/img/logo-square-small.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -39,7 +39,7 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center">
+<!--  <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
@@ -49,45 +49,24 @@
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <!--<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>-->
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
       <!--<h1 class="logo"><a href="index.html">DEVISER</a></h1>-->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="logo" style="color: white">DEVISER</a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <!--<li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>-->
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>-->
-          <!--<li><a class="nav-link scrollto" href="#contact">Contact</a></li>-->
+          <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#publications">News</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -98,8 +77,12 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-      <h1>DEVISER</h1>
-      <h2>DEVeloper-centrIc Software Engineering Research</h2>
+<!--       <h1>DEVISER</h1> -->
+      <div style="content-align: center;">
+      <img width="100%" src="assets/img/logo.png" />
+      <p style="color: white">DEVeloper-centrIc Software Engineering Research group</p>
+      </div>
+      <!--<h2>DEVeloper-centrIc Software Engineering Research</h2>-->
      
       <!--<a href="#about" class="btn-get-started scrollto">Get Started</a>-->
     </div>
@@ -108,461 +91,287 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="mission" class="about">
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>DEVeloper-centrIc Software Engineering Research</h3>
-            <p class="fst-italic">
-              La missione principale del gruppo di ricerca DEVeloper-centrIc Software Engineering Research (DEVISER) è quella di far progredire lo stato dell’arte dell’ingegneria del software definendo nuovi approcci e strumenti che
-              (i) si basano sui dati e sul feedback degli sviluppatori e (ii) mirano a essere developer-friendly by design. I temi di ricerca perseguiti da DEVISER includono (ma non si limitano a) i seguenti:
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Sistemi di raccomandazione incentrati sullo sviluppatore;</li>
-              <li><i class="bi bi-check-circle"></i> Valutazione e miglioramento della leggibilità e della comprensibilità del codice;</li>
-              <li><i class="bi bi-check-circle"></i> Garanzia di qualità di sistemi software complessi e tecnologie innovative (ad esempio, assistenti vocali, videogiochi, Docker);</li>
-              <li><i class="bi bi-check-circle"></i> Ingegneria del software per l’apprendimento automatico (SE4ML).</li>
-            </ul>
-            <!--<p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p> -->
+          <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <p style="text-aling: center;">
+              The mission of the DEVeloper-centrIc Software Engineering Research group (DEVISER) is to advance the state-of-the-art in software engineering by defining novel approaches and tools that are driven by developer data and feedback and aim to be developer-friendly by design. The research areas pursued by DEVISER include (but are not limited to) the following:</p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Developer-centric recommendation systems for Software Engineering;</li>
+              <li><i class="bi bi-check-circle"></i> Assessing and improving code quality aspects such as code readability and understandability;</li>
+              <li><i class="bi bi-check-circle"></i> Quality assurance for software systems with unconventional UIs (e.g., voice assistants and video games);</li>
+              <li><i class="bi bi-check-circle"></i> Interpretability and explainability of LLMs.</li>
+            </ul>
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-up">
-            <div class="box">
-              <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
-            <div class="box">
-              <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <span>03</span>
-              <h4>Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
-
-    <!-- ======= Clients Section ======= --> <!--
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row d-flex align-items-center">
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
-
-        </div>
-
-      </div>
-    </section> --><!-- End Clients Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Services</span>
-          <h2>Services</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Portfolio</span>
-          <h2>Portfolio</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-    
-    <!-- ======= Pricing Section ======= --><!--
-    <section id="pricing" class="pricing">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Pricing</span>
-          <h2>Pricing</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-            <div class="box">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
-            <div class="box featured">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-            <div class="box">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>--><!-- End Pricing Section -->
-    
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
       <div class="container">
 
         <div class="section-title">
-          <span>Team</span>
-          <h2>Team</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <span>Members</span>
+          <h2>Members</h2>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
               <img src="assets/img/team/simone.png" alt="">
               <h4>Simone Scalabrino</h4>
-              <span>Fouder and Director</span>
-              <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-              </p>
+              <span>Founder and Director</span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="https://dibt.unimol.it/sscalabrino"><i class="bi bi-globe"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
               <img src="assets/img/team/rocco.png" alt="">
               <h4>Rocco Oliveto</h4>
               <span>Faculty</span>
-              <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-              </p>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="https://dibt.unimol.it/staff/oliveto"><i class="bi bi-globe"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
               <img src="assets/img/team/emanuela.png" alt="">
               <h4>Emanuela Guglielmi</h4>
               <span>Research Fellow</span>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-              </p>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="https://emanuelaguglielmi.it/"><i class="bi bi-globe"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
               <img src="assets/img/team/antonio.png" alt="">
               <h4>Antonio Vitale</h4>
               <span>PhD Student</span>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-              </p>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href=""><i class="bi bi-globe"></i></a>
               </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="section-title">
+          <span>Students</span>
+          <h2>Students</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-3 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <h4>Andrea D'Aguanno</h4>
+              <span>Master's Degree in Software Systems Security</span>
+              <p>
+                Enhancing Just-In-Time Defect Prediction Models with Developer-Centric Features
+              </p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <h4>Mario Autore</h4>
+              <span>Bachelor's Degree in Computer Science</span>
+              <p>
+                BugBuster: a Web Application for Detecting Bugs in Gameplay Videos
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <h4>Alessio Maselli</h4>
+              <span>Bachelor's Degree in Computer Science</span>
+              <p>
+                An Empirical Study on the Impact of Indentifier Quality in Automated Code Summarization
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <h4>Angelo Trotta</h4>
+              <span>Bachelor's Degree in Computer Science</span>
+              <p>
+                A Fine-Grained Analysis of Comments Quality in Code-Related Datasets
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <h4>Marco Omicini</h4>
+              <span>Bachelor's Degree in Computer Science</span>
+              <p>
+                An Empirical Exploration of Deep Learning Techniques for Automated Enhancement of Code Readability in Large-Scale Software Repositories
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="collaborations" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="section-title">
+          <span>Collaborations</span>
+          <h2>Collaborations</h2>
+        </div>
+
+        <div class="row d-flex align-items-center">
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a target="_blank" href="https://seart.si.usi.ch/index.html"><img src="assets/img/collaborations/seart.png" class="img-fluid" alt="SEART"></a>
+<!--            <p> SEART @ USI </p>-->
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a target="_blank" href="https://aura-se-lab.github.io/"><img src="assets/img/collaborations/aura.png" class="img-fluid" alt=""></a>
+<!--            <p> AURA @ WM </p>-->
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a target="_blank" href="https://www.cs.wm.edu/semeru/"><img src="assets/img/collaborations/semeru.png" class="img-fluid" alt=""></a>
+<!--            <p> SEMERU @ WM </p>-->
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a target="_blank" href="https://collab.di.uniba.it/"><img src="assets/img/collaborations/collab.png" class="img-fluid" alt=""></a>
+<!--            <p> COLLAB @ Uniba </p>-->
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a target="_blank" href="https://spencerlabaq.github.io/"><img src="assets/img/collaborations/spencer.png" class="img-fluid" alt=""></a>
+<!--            <p> SPENCER @ Univaq </p>-->
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a target="_blank" href="https://ivu.di.uniba.it/"><img src="assets/img/collaborations/ivulaboratory.png" class="img-fluid" alt=""></a>
+<!--            <p> IVU Laboratory @ Uniba </p>-->
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a target="_blank" href="https://daislabunisa.altervista.org/"><img src="assets/img/collaborations/dais.png" class="img-fluid" alt=""></a>
+<!--            <p> DAIS @ Unisa </p>-->
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <a target="_blank" href="https://sesalabunisa.github.io/en/"><img src="assets/img/collaborations/sesalab.png" class="img-fluid" alt=""></a>
+<!--            <p> SeSa Lab @ Unisa </p>-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Projects</span>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-person-badge"></i></div>
+              <h4><a href="https://sites.google.com/view/prin2022-devprodev">DevProDev</a></h4>
+              <h5>Profiling Software Developers for Developer-Centered Recommender Systems</h5>
+
+              <p>Funded under the PRIN 2022 Program</p>
+              <p><i>Italian Ministry of University and Research</i></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="publications" class="why-us">
+      <div class="container">
+        <div class="section-title">
+          <span>Latest Publications</span>
+          <h2>Latest Publications</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="box">
+              <span>MSR 2025</span>
+              <h4>Enhancing Just-In-Time Defect Prediction Models with Developer-Centric Features</h4>
+              <p>E. Guglielmi, A. D’Aguanno, R. Oliveto, S. Scalabrino</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="box">
+              <span>TOSEM 2025</span>
+              <h4>A catalog of data smells for coding tasks</h4>
+              <p>A. Vitale, R. Oliveto, S. Scalabrino</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="box">
+              <span>ICPC 2025</span>
+              <h4>Personalized Code Readability Assessment: Are We There Yet?</h4>
+              <p>A. Vitale, E. Guglielmi, R. Oliveto, S. Scalabrino</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="box">
+              <span>ICPC 2025</span>
+              <h4>Optimizing Datasets for Code Summarization: Is Code-Comment Coherence Enough?</h4>
+              <p>A. Vitale, A. Mastropaolo, R. Oliveto, M. Di Penta, S. Scalabrino</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="box">
+              <span>EMSE 2025</span>
+              <h4>Automatic Identification of Game Stuttering via Gameplay Videos Analysis</h4>
+              <p>E. Guglielmi, G. Bavota, R. Oliveto, S. Scalabrino</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="box">
+              <span>MSR 2025</span>
+              <h4>Is it Really Fun? Detecting Low Engagement Events in Video Games</h4>
+              <p>E. Guglielmi, G. Bavota, N. Novielli, R. Oliveto, S. Scalabrino</p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
 
-    <!-- ======= Contact Section ======= --> <!--
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
           <span>Contact</span>
           <h2>Contact</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -570,7 +379,7 @@
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Via Duca degli Abruzzi, 86039 Termoli (CB)</p>
             </div>
           </div>
 
@@ -578,7 +387,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>contact@example.com</p>
+              <p>simone.scalabrino@unimol.com</p>
             </div>
           </div>
 
@@ -586,7 +395,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
+              <p>+39 0874404127</p>
             </div>
           </div>
 
@@ -594,11 +403,11 @@
 
         <div class="row" data-aos="fade-up">
 
-          <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          <div class="col-lg-12 ">
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.733711103772!2d14.987485062266853!3d42.00449711315869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1330cd08e8cd5ee3%3A0x9f982dbddc05df96!2sUniversit%C3%A0%20Degli%20Studi%20Del%20Molise%20-%20Sede%20Di%20Termoli!5e0!3m2!1sen!2sit!4v1751026011946!5m2!1sen!2sit" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
 
-          <div class="col-lg-6">
+          <!--<div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -626,7 +435,7 @@
         </div>
 
       </div> -->
-    </section><!-- End Contact Section -->
+    </section>
 
   </main><!-- End #main -->
 
