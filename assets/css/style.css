@@ -115,7 +115,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #191919;
+  background: #0a122a;
   font-size: 15px;
   height: 40px;
   padding: 0;
@@ -158,14 +158,14 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(25, 25, 25, 0.95);
+  background: rgba(10, 18, 42, 0.8);
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
 }
 
 #header.fixed-top {
-  background: #191919;
+  background: #0a122a;
 }
 
 #header .logo {
@@ -420,16 +420,16 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 110px);
+  height: calc(100vh);
 /*   background: url("../img/hero-bg.jpg") top center; */
-  background-color: black;
+  background-color: #0a122a;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+/*   background: rgba(0, 0, 0, 0.5); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -596,7 +596,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #008f00;
+  color: #0a122a;
 }
 
 .why-us .box h4 {
@@ -615,7 +615,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #008f00;
+  background: #0a122a;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -630,7 +630,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #003900;
+  background: #0a122a;
   padding: 15px 0;
   text-align: center;
 }
@@ -652,7 +652,7 @@ section {
 }
 
 .clients .section-title span {
-  color: #2b3f2b;
+  color: #27304a;
 }
 
 .clients img:hover {
@@ -680,7 +680,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #008f00;
+  background: #0a122a;
   transition: all 0.3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -704,7 +704,7 @@ section {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: rgba(204, 22, 22, 0.15);
+  background: #dadfec;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
   z-index: -1;
@@ -727,8 +727,8 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #008f00;
-  border-color: #008f00;
+  background: #0a122a;
+  border-color: #0a122a;
   padding: 70px 20px 90px 20px;
 }
 
@@ -737,7 +737,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #008f00;
+  color: #0a122a;
 }
 
 .services .icon-box:hover .icon::before {
@@ -814,7 +814,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #008f00;
+  color: #0a122a;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -861,7 +861,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #008f00;
+  color: #0a122a;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -887,7 +887,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #008f00;
+  color: #0a122a;
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
@@ -916,11 +916,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #008f00;
+  border: 1px solid #0a122a;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #008f00;
+  background-color: #0a122a;
 }
 
 .portfolio-details .portfolio-info {
@@ -1145,10 +1145,10 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #008f00;
+  color: #0a122a;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #00e300;
+  border: 2px dotted #0a122a;
 }
 
 .contact .info-box h3 {
@@ -1290,7 +1290,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0c0c0c;
+  background: #0a122a;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1302,7 +1302,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #191919;
+  background: #0a122a;
   color: #fff;
   border-top: 4px solid #008f00;
   text-align: center;
